@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="uft-8">
+    <meta name="viewport device-width">
+    <title>Jesnefa's Catering Services</title>
+  </head>
+  <link rel="stylesheet" href="Jesnefa's.css">
+  <body>
+    <div class="container">
+      <div class="heading">
+        <h1 id="title">Jesnefa's Catering</h1>
+        <p id="description">We deliver quality products and Services</p>
+        
+    </div>
+
+      <form id="survey-form">
+        <fieldset class="personal">
+          <label id="name-label">Name</label>
+            <input id="name" name="name" placeholder="eg.Lawrence" type="text" required>
+          <label id="email-label">Email</label> 
+            <input id="email" type="email" placeholder="eg.lawrence@gmail.com" required>
+          <label id="number-label"> Age </label>
+            <input id= "number" type="number" min=10 max=120 placeholder="eg.10">
+        </fieldset>
+      
+
+        <fieldset class="recipe">
+          <label>What is the recipe you enjoyed from us?</label>
+           <select id="dropdown" value="dropdown">
+            <option disabled> Choose one </option>
+            <option> Cheesecake </option>
+            <option> Bundt cake </option>
+            <option> Pound cake </option>
+            <option> Black Forest cake </option>
+            <option> Roll cake </option>
+            <option> Cupcakes </option>
+            <option> Ice cream cake </option>
+            <option> Fruitcake </option>
+            
+          </select>
+      </fieldset>
+
+       
+
+      <fieldset>
+        <legend>How would you rate our service?</legend>
+          <label>
+            <input type="radio" value="excellent" name="service-rating" checked> Excellent
+          </label>
+          <label>
+            <input type="radio" value="moderate" name="service-rating"> Moderate
+            </label>
+          <label>
+            <input type="radio" value="poor" name="service-rating"> Poor
+          </label>
+      </fieldset>
+
+
+      <fieldset>
+          <legend>What would you like to be improved?</legend>
+            <label id="feedback">
+              <input  type="checkbox" value="delivery" class="inline" checked>Delivery
+            </label>
+            <label id="feedback">
+              <input type="checkbox" value="production"  class="inline">Production Duration</label>
+            <label>
+        </fieldset>
+        
+        <fieldset>
+          <legend>Would you ever recommend our services to others?</legend>
+          <label id="of_course">
+            <input type="radio" value="of_course" name="recomendation" checked> Of Course
+            <label>
+            <input type="radio" value="maybe" name="recomendation"> Maybe
+          </label>
+ <label>
+            <input type="radio" value="never" name="recomendation"> Never
+          </label>
+        </fieldset>
+
+
+        <fieldset>
+
+          <legend>Any comment or Suggestion.<legend>
+         <textarea name="comment" rows="6" cols= "80"></textarea>
+
+        </fieldset>
+        
+        <button id="submit" type="submit" action="lawrenceduncan999@gmail.com">submit</button>
+        <input type="reset" value="Reset" action="Jesnefa's.html">
+      </form>
+<footer>
+   <em>Copyright - All right reserved</em></p>
+  </footer>
+</div>
+  </body>
+</html>

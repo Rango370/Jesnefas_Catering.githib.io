@@ -1,0 +1,102 @@
+body{
+  background-image: url(2.jpg);
+  font-family: Algerian, sans-serif;
+  width:2500px;
+  min-width:300px;
+  max-width: 500px;
+  min-height:300px;
+  max-height:1000px;
+  background-color: #000108 ;
+  margin: auto;
+}
+.container{
+  box-shadow: 0 0 2px 2px #044226; 
+  border-radius:10px;
+  margin-top: 20px;
+  color:white;
+  border-color: white;
+  background-color: #044226 ;
+}
+.personal label{
+  margin-left:4px
+}
+.personal input{
+  box-shadow:0 0 2px 2px #ffffff;
+  color:#ffffff;
+  background-color:#044226;
+  width: 100%;
+  margin-bottom: 30px;
+}
+h1,p{ 
+  text-align: center;
+}
+
+label{
+  display: block;
+}
+fieldset{
+  border-color: #ffffffff;
+  margin: 20px;
+}
+input{
+  margin:5px;
+}
+label{
+  margin: auto;
+}
+
+fieldset{
+  border: none; 
+}
+
+
+.heading{ 
+  box-shadow:0 0 2px 2px rgb(225,214,179);
+  background-color: rgb(225,214,179) ;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius:9px;
+  color:black;
+}
+textarea{
+  box-shadow:0 0 2px 2px #ffffff;
+  margin-top:6px;
+  width:100%;
+  color: white;
+  background-color: #044226;
+}
+
+.recipe select{
+  background-color:#044226;
+  color:white;
+}
+
+.button,
+input[type="reset"]{
+  display:inline-block;
+  cursor: pointer;
+}
+button{
+  border:none;
+  box-shadow: 0 0 2px 2px rgb(225,214,179);
+  background-color:rgb(225,214,179);
+  width:100px;
+  margin-left:100px;
+  margin-bottom:40px;
+  cursor:pointer;
+  
+}
+input[type="reset"]{
+  border:none;
+  box-shadow: 0 0 2px 2px rgb(225,214,179);
+  background-color:rgb(225,214,179);
+  width:100px;
+  margin-left:100px;
+  margin-bottom:8px;
+}
+footer {
+  text-align: right;
+  padding-bottom:auto;
+  margin-right:10px;
+  margin-bottom:25px;
+}jh
